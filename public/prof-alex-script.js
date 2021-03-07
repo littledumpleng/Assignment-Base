@@ -8,7 +8,7 @@ console.table(data); // prints table of data in console
 const request = await fetch('/api'); // request fetches the api; await pauses async function execution until a Promise is addressed
 const data = await request.json(); // data is request formatted to json
 
-form.addEventListener('submit', async (event) => { 
+form.addEventListener('change', async (event) => { // change calls javascript async event any time any change is made to form
     event.preventDefault(); // prevents page from reloading into something new; prevents default action belonging to an event from occurring, like clicking submit buttons
     console.log('submit fired', search.value); //what does search.value refer to
     const filtered = data.filter(record) => record.city.toUpperCase() === SVGPathSegCurvetoCubicSmoothAbs.value.toUpperCase(); // filters data, upper-case
@@ -18,6 +18,9 @@ form.addEventListener('submit', async (event) => {
         targetList.append(appendItem);
     } 
 })
+
+
+//update listings whenever sesarch bar is updated
 
 
 
