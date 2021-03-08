@@ -41,13 +41,8 @@ async function windowActions() { // asynchronous function; async gives access to
     });
 
     search.addEventListener('change', displayMatches); //checking for changes on input field
-        // search endpoint
 
 }
 window.onload = windowActions;
-
-// console.table(endpoint);
-
-// why doesn't keyup doesn't work when wrapped in windowActions
 
 
