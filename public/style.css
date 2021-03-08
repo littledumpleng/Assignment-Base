@@ -22,14 +22,14 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-weight: 700;
   color: #161e72;
 }
 
 form,
 label {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 700;
   color: #161e72;
 }
@@ -96,6 +96,10 @@ li {
   padding: 1%;
 }
 
+ul.suggestions {
+  list-style-type: none;
+}
+
 .labels {
   background-image: linear-gradient(rgb(240, 190, 227), rgb(190, 159, 231));
   padding: 5%;
@@ -112,20 +116,22 @@ li {
   font-size: 3rem;
   text-align: center;
   font-weight: 800;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
 }
 
-.address, .city, .zip {
+.address,
+.city,
+.zip {
   font-size: 2rem;
   text-align: center;
   font-weight: 400;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .category {
   font-size: 2rem;
   text-align: center;
   font-weight: 300;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: italic;
 }
