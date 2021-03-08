@@ -1,14 +1,15 @@
 /* General Setup */
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
-  
+
 html {
   font-size: 10px;
 }
-  
+
 body {
   width: 70%;
   min-width: 800px;
@@ -18,37 +19,42 @@ body {
 
 /* Typography */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: #000000;
 }
 
-form, label {
+form,
+label {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: #000000;
 }
-  
-p, input, li {
+
+p,
+input,
+li {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #2a2a2a;
 }
-  
+
 h1 {
   font-size: 4rem;
   text-align: center;
   text-shadow: 2px 2px 10px black;
   font-weight: 100;
 }
-  
+
 h2 {
   font-size: 5rem;
   text-align: center;
   font-weight: 800;
 }
-  
+
 h3 {
   font-size: 2.2rem;
   text-align: center;
@@ -66,8 +72,9 @@ label {
   text-align: center;
   font-weight: 100;
 }
-  
-p, li {
+
+p,
+li {
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -93,3 +100,7 @@ p, li {
   background-color: rgba(237, 191, 241);
   padding: 1%;
 }
+
+/*bold name, add line break after each field in script file (<br>) after each class
+use css for linear gradient
+*/
